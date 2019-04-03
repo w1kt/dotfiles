@@ -1,6 +1,0 @@
-[2019-03-28 01:25:39.950] [renderer3] [info] no standard startup: not just one window
-[2019-03-28 01:25:47.988] [renderer3] [error] Failed to watch /home/wikt/.config/Code/User for changes (Error: ENOSPC: no space left on device, watch '/home/wikt/.config/Code/User')
-[2019-03-28 01:25:47.992] [renderer3] [error] Failed to watch /home/wikt/.config/Code/logs/20190328T012447/output_3_20190328T012547 for changes (Error: ENOSPC: no space left on device, watch '/home/wikt/.config/Code/logs/20190328T012447/output_3_20190328T012547')
-[2019-03-28 01:25:49.661] [renderer3] [error] Inotify limit reached (ENOSPC)
-[2019-03-28 01:25:50.609] [renderer3] [error] Failed to watch /home/wikt/.config/Code/User/snippets for changes (Error: ENOSPC: no space left on device, watch '/home/wikt/.config/Code/User/snippets')
-[2019-03-28 01:25:51.441] [renderer3] [info] no standard startup: not just one window
