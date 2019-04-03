@@ -1,0 +1,6 @@
+[Common]
+OutlineCloseButton=false
+
+[Windeco]
+DrawBackgroundGradient=false
+DrawTitleBarSeparator=false

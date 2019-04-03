@@ -1,0 +1,105 @@
+[2019-03-27 20:26:56.397] [renderer3] [info] no standard startup: not just one window
+[2019-03-27 20:27:06.658] [renderer3] [info] no standard startup: not just one window
+[2019-03-27 20:32:14.030] [renderer3] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+	at Object.selectedText (/home/wikt/.vscode/extensions/wix.glean-4.10.0/out/editor.js:37:30)
+	at CompleteActionProvider.provideCodeActions (/home/wikt/.vscode/extensions/wix.glean-4.10.0/out/extension.js:17:31)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:541:390
+	at t.asPromise (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:385)
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:353)
+	at e.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:541:350)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:558:130
+	at e._withAdapter (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:292)
+	at e.$provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:558:92)
+	at t._doInvokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:644:118)
+	at t._invokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:643:744)
+	at t._receiveRequest (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:642:256)
+	at t._receiveOneMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:641:155)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:638:960
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:38:994
+	at e.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:44:113)
+	at a (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:170:213)
+	at Socket.f._socketDataListener (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:170:434)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)
+[2019-03-27 20:32:22.542] [renderer3] [error] Cannot read property 'object' of undefined: TypeError: Cannot read property 'object' of undefined
+	at isSupportedComponent (/home/wikt/.vscode/extensions/wix.glean-4.10.0/out/modules/stateful-to-stateless.js:303:39)
+	at Object.isStatefulComp (/home/wikt/.vscode/extensions/wix.glean-4.10.0/out/modules/stateful-to-stateless.js:310:9)
+	at CompleteActionProvider.provideCodeActions (/home/wikt/.vscode/extensions/wix.glean-4.10.0/out/extension.js:39:37)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:541:390
+	at t.asPromise (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:385)
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:353)
+	at e.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:541:350)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:558:130
+	at e._withAdapter (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:292)
+	at e.$provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:558:92)
+	at t._doInvokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:644:118)
+	at t._invokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:643:744)
+	at t._receiveRequest (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:642:256)
+	at t._receiveOneMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:641:155)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:638:960
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:38:994
+	at e.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:44:113)
+	at a (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:170:213)
+	at Socket.f._socketDataListener (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:170:434)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)
+[2019-03-27 20:32:24.384] [renderer3] [error] Cannot read property 'superClass' of undefined: TypeError: Cannot read property 'superClass' of undefined
+	at isSupportedComponent (/home/wikt/.vscode/extensions/wix.glean-4.10.0/out/modules/stateful-to-stateless.js:303:28)
+	at Object.isStatefulComp (/home/wikt/.vscode/extensions/wix.glean-4.10.0/out/modules/stateful-to-stateless.js:310:9)
+	at CompleteActionProvider.provideCodeActions (/home/wikt/.vscode/extensions/wix.glean-4.10.0/out/extension.js:39:37)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:541:390
+	at t.asPromise (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:385)
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:353)
+	at e.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:541:350)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:558:130
+	at e._withAdapter (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:292)
+	at e.$provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:558:92)
+	at t._doInvokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:644:118)
+	at t._invokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:643:744)
+	at t._receiveRequest (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:642:256)
+	at t._receiveOneMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:641:155)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:638:960
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:38:994
+	at e.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:44:113)
+	at a (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:170:213)
+	at Socket.f._socketDataListener (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:170:434)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)
+[2019-03-27 23:44:38.015] [renderer3] [error] Cannot read property 'superClass' of undefined: TypeError: Cannot read property 'superClass' of undefined
+	at isSupportedComponent (/home/wikt/.vscode/extensions/wix.glean-4.10.0/out/modules/stateful-to-stateless.js:303:28)
+	at Object.isStatefulComp (/home/wikt/.vscode/extensions/wix.glean-4.10.0/out/modules/stateful-to-stateless.js:310:9)
+	at CompleteActionProvider.provideCodeActions (/home/wikt/.vscode/extensions/wix.glean-4.10.0/out/extension.js:39:37)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:541:390
+	at t.asPromise (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:385)
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:353)
+	at e.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:541:350)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:558:130
+	at e._withAdapter (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:292)
+	at e.$provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:558:92)
+	at t._doInvokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:644:118)
+	at t._invokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:643:744)
+	at t._receiveRequest (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:642:256)
+	at t._receiveOneMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:641:155)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:638:960
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:38:994
+	at e.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:44:113)
+	at a (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:170:213)
+	at Socket.f._socketDataListener (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:170:434)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)

@@ -1,0 +1,51 @@
+Looking for git in: git
+Using git 2.21.0 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/wikt/Dev/sneeze-log-server
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/controllers/Backup.js
+> git show :src/services/User.js
+> git check-ignore -z --stdin
+> git show :src/controllers/Backup.js
+> git check-ignore -z --stdin
+> git ls-tree -l HEAD -- /home/wikt/Dev/sneeze-log-server/Dockerfile
+> git show 263100a3ac91852aadb949b0d9c2084d445c5653
+> git show HEAD:Dockerfile
+> git ls-tree -l HEAD -- /home/wikt/Dev/sneeze-log-server/docker-compose.yml
+> git show e6b801db70b9864a65302766bc48bae836650417
+> git show HEAD:docker-compose.yml
+> git show :src/controllers/Backup.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/controllers/Backup.js
+> git show :src/services/User.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/controllers/Backup.js
+> git show :src/services/User.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/controllers/Backup.js
+> git show :src/services/User.js

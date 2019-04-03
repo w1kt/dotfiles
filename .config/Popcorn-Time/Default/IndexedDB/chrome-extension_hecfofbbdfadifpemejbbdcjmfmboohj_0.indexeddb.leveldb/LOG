@@ -1,0 +1,4 @@
+2019/03/31-20:55:16.442 22102 Reusing MANIFEST /home/wikt/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/MANIFEST-000001
+2019/03/31-20:55:16.442 22102 Recovering log #9
+2019/03/31-20:55:16.442 22102 Reusing old log /home/wikt/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/000009.log 
+2019/03/31-20:55:16.442 22102 Delete type=0 #7

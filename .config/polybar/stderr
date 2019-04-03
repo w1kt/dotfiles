@@ -1,0 +1,13 @@
+polybar|error: Disabling module "bspwm" (reason: Could not find socket: /tmp/bspwm_0_0-socket)
+polybar|error: Disabling module "i3" (reason: Could not find socket: <empty>)
+polybar|warn:  internal/volume is deprecated, use internal/alsa instead
+polybar|error: Disabling module "volume" (reason: Cannot find simple element)
+polybar|error: Disabling module "wifi" (reason: Invalid network interface "net1")
+polybar|error: background_manager: Failed to get root pixmap for background (realloc=604922240)
+polybar|error: Failed to restack bar window
+polybar|error: background_manager: Failed to get root pixmap for background (realloc=604922240)
+polybar|warn:  Systray selection already managed (window=0x2600005)
+polybar|error: background_manager: Failed to get root pixmap for background (realloc=604922240)
+polybar|error: background_manager: Failed to get root pixmap for background (realloc=604922240)
+polybar|error: background_manager: Failed to get root pixmap for background (realloc=604922240)
+polybar|warn:  Termination signal received, shutting down...

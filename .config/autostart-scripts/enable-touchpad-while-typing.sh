@@ -1,0 +1,1 @@
+/home/wikt/enable-touchpad-while-typing.sh

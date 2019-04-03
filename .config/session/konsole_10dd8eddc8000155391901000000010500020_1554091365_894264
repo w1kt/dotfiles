@@ -1,0 +1,22 @@
+[1]
+Active=1
+Sessions=1
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=$HOME/.local/share/konsole/Shell.profile
+RemoteTab=(%u) %H
+SessionGuid={837d4058-b77f-4622-8009-b5fb7a710f87}
+WorkingDir[$e]=$HOME/.config/polybar
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+Height 900=820
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAAxEAAAMWAAAABAAAAAQAAAAIAAAACPwAAAAA
+Width 1600=785

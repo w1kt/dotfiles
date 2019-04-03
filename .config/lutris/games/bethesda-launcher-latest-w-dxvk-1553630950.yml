@@ -1,0 +1,12 @@
+game:
+  arch: win64
+  exe: drive_c/Program Files (x86)/Bethesda.net Launcher/BethesdaNetLauncher.exe
+  prefix: /home/wikt/Games/bethesda-launcher
+  working_dir: /home/wikt/Games/bethesda-launcher/drive_c/Program Files (x86)/Bethesda.net
+    Launcher
+system:
+  env:
+    DXVK_HUD: '0'
+wine:
+  dxvk: true
+  version: system

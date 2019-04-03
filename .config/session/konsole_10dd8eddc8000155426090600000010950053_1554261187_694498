@@ -1,0 +1,23 @@
+[1]
+Active=1
+Sessions=1
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=$HOME/.local/share/konsole/Shell.profile
+RemoteTab=(%u) %H
+SessionGuid={7e2cc4d4-014a-4a60-af71-16977c43b0c7}
+WorkingDir[$e]=$HOME/Dev/sneeze-log
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+Height 900=798
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAAvMAAAMAAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1600=755

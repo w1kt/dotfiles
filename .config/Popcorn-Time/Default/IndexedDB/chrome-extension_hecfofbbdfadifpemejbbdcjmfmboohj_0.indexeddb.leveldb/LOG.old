@@ -1,0 +1,10 @@
+2019/03/31-20:49:08.258 21559 Reusing MANIFEST /home/wikt/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/MANIFEST-000001
+2019/03/31-20:49:08.258 21559 Recovering log #4
+2019/03/31-20:49:08.258 21559 Reusing old log /home/wikt/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/000004.log 
+2019/03/31-20:49:08.258 21559 Delete type=0 #3
+2019/03/31-20:55:11.806 21559 Current memtable full; waiting...
+2019/03/31-20:55:11.806 22068 Level-0 table #8: started
+2019/03/31-20:55:11.845 22068 Level-0 table #8: 625 bytes OK
+2019/03/31-20:55:11.989 22068 Delete type=0 #4
+2019/03/31-20:55:11.989 22068 Level-0 table #10: started
+2019/03/31-20:55:11.989 22068 Level-0 table #10: 0 bytes OK

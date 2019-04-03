@@ -1,0 +1,17 @@
+2019/03/28-22:51:18.541 28019 Reusing MANIFEST /home/wikt/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/03/28-22:51:18.542 28019 Recovering log #29
+2019/03/28-22:51:18.542 28019 Reusing old log /home/wikt/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000029.log 
+2019/03/28-22:58:49.029 28019 Current memtable full; waiting...
+2019/03/28-22:58:49.029 28398 Level-0 table #34: started
+2019/03/28-22:58:49.043 28398 Level-0 table #34: 4349 bytes OK
+2019/03/28-22:58:49.056 28398 Delete type=0 #29
+2019/03/28-22:58:49.056 28398 Level-0 table #36: started
+2019/03/28-22:58:49.056 28398 Level-0 table #36: 0 bytes OK
+2019/03/28-22:58:49.097 28398 Delete type=0 #33
+2019/03/28-22:58:49.097 28398 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/03/28-23:15:28.729 28398 Compacting 1@1 + 1@2 files
+2019/03/28-23:15:28.759 28398 Generated table #37@1: 980 keys, 112436 bytes
+2019/03/28-23:15:28.759 28398 Compacted 1@1 + 1@2 files => 112436 bytes
+2019/03/28-23:15:28.784 28398 compacted to: files[ 0 0 1 0 0 0 0 ]
+2019/03/28-23:15:28.785 28398 Delete type=2 #31
+2019/03/28-23:15:28.785 28398 Delete type=2 #34

@@ -1,0 +1,14 @@
+! displayctl
+#include "/home/wikt/.x/displayctlrc" 
+
+! Colorscheme
+#include "/home/wikt/.x/colorscheme"
+
+! Font Settings
+#include "/home/wikt/.x/fonts"
+
+! URxvt
+#include "/home/wikt/.x/urxvt"
+
+! Rofi Colors
+#include "/home/wikt/.x/rofi"

@@ -1,0 +1,22 @@
+[DownloadDialog Settings]
+Height 900=494
+Width 1600=700
+
+[FileDialogSize]
+Height 900=565
+Width 1600=931
+
+[KFileDialog Settings]
+Recent Files[$e]=Chill-Nature-Creative-Desktop-Wallpaper-Background-by-Canva.jpg,file:$HOME/Downloads/dawn-city-lights-photography-hd-wallpaper-1920x1080-2756.jpg,file:$HOME/Downloads/Chill-Nature-Creative-Desktop-Wallpaper-Background-by-Canva.jpg,file:$HOME/Downloads/59bsn5hgnojy.jpg,file:$HOME/Downloads/1376023707259.png,file:$HOME/Downloads/Guest-Landing-Page.jpg,file:$HOME/enable-touchpad-while-typing.sh
+Recent URLs[$e]=file:$HOME/Downloads/
+
+[KPropertiesDialog]
+Height 900=464
+Width 1600=627
+
+[Open-with settings]
+CompletionMode=1
+History=red
+
+[PlasmaRunnerManager]
+LaunchCounts=

@@ -1,0 +1,30 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Downloads/
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=file:$HOME/Downloads/
+
+[MainWindow]
+Height 900=835
+State=AAAA/wAAAAD9AAAAAAAAAgYAAAL/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Width 1600=518
+splitterSizes=345,172
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/android-studio-ide-173.4907809-linux.zip
+File2[$e]=$HOME/Downloads/nodejs-express-todoapp-non-docker.zip
+File3[$e]=$HOME/Downloads/dxvk-1.0.1.tar.gz
+File4[$e]=$HOME/Downloads/operatormonolig.zip
+Name1[$e]=android-studio-ide-173.4907809-linux.zip
+Name2[$e]=nodejs-express-todoapp-non-docker.zip
+Name3[$e]=dxvk-1.0.1.tar.gz
+Name4[$e]=operatormonolig.zip
+
+[Viewer]
+Height 900=403
+State=AAAA/wAAAAD9AAAAAAAAAwgAAAFPAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1600=776

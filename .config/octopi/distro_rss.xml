@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Manjaro Linux</title>
+	<atom:link href="https://manjaro.org/feed/" rel="self" type="application/rss+xml" />
+	<link>https://manjaro.org</link>
+	<description>Enjoy the simplicity</description>
+	<lastBuildDate>Sat, 18 Aug 2018 12:24:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+	<item>
+		<title>Manjaro 17.1.12</title>
+		<link>https://manjaro.org/2018/08/18/manjaro-17-1-12/</link>
+		<pubDate>Sat, 18 Aug 2018 12:24:28 +0000</pubDate>
+		<dc:creator><![CDATA[Philip Müller]]></dc:creator>
+				<category><![CDATA[news]]></category>
+
+		<guid isPermaLink="false">https://manjaro.org/?p=6249</guid>
+		<description><![CDATA[We are happy to announce fresh install media 17.1.12 for all our Official Releases, now available from our online storage partner OSDN: XFCE KDE GNOME While our XFCE and GNOME editions are mostly just rebuilds with the latest updated packages, including Libreoffice 6.0.6, Pamac 6.5.0 and Calamares 3.2.1, real news are to be reported for [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>We are happy to announce fresh install media <strong>17.1.12 </strong>for all our <strong>Official Releases</strong>, now available from our online storage partner OSDN:</p>
+<table>
+<tbody>
+<tr>
+<td><strong>XFCE</strong><br />
+<a href="https://osdn.net/projects/manjaro/storage/xfce/17.1.12/" target="_blank" rel="noopener"><img src="https://manjaro.org/wp-content/uploads/2018/04/dl-button.png" /></a></td>
+<td><strong>KDE</strong><br />
+<a href="https://osdn.net/projects/manjaro/storage/kde/17.1.12/" target="_blank" rel="noopener"><img src="https://manjaro.org/wp-content/uploads/2018/04/dl-button.png" /></a></td>
+<td><strong>GNOME</strong><br />
+<a href="https://osdn.net/projects/manjaro/storage/gnome/17.1.12/" target="_blank" rel="noopener"><img src="https://manjaro.org/wp-content/uploads/2018/04/dl-button.png" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>While our <strong>XFCE</strong> and <strong>GNOME</strong> editions are mostly just rebuilds with the latest updated packages, including <a href="https://blog.documentfoundation.org/blog/2018/08/02/libreoffice-6-0-6//" rel="noopener" target="_blank"><strong>Libreoffice 6.0.6</strong></a>, <strong>Pamac 6.5.0</strong> and <strong>Calamares 3.2.1</strong>, real news are to be reported for <strong>Manjaro-KDE</strong>, which is now running brand new <strong>KDE 5.13.4</strong>, including <strong>Plasma Browser Integration</strong>, <strong>System Settings redesigns</strong>, <strong>new look</strong> for Lock and Login Screens and a <strong>tech preview</strong> of GTK global menu integration. Additionally we updated our <strong>Xorg-Stack</strong> to 1.20 Server series and pushed out the latest <strong>MESA-Stack</strong>.</p>
+<p><img src="https://manjaro.org/wp-content/uploads/2017/03/kde-170.png" alt="" /></p>
+<hr>
+<p><strong>Links</strong></p>
+<ul>
+<li><a href="https://manjaro.org/get-manjaro/">Download Manjaro 17.1.12</a></li>
+<li><a href="https://manjaro.org/donate/">We are always happy for some support via a small donation</a></li>
+</ul>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>[Stable Update] 2018-08-18 &#8211; Kernels, Xorg-Server, Mesa, Deepin, MATE, Perl, Python</title>
+		<link>https://manjaro.org/2018/08/18/stable-update-2018-08-18-kernels-xorg-server-mesa-deepin-mate-perl-python/</link>
+		<pubDate>Sat, 18 Aug 2018 08:47:04 +0000</pubDate>
+		<dc:creator><![CDATA[Philip Müller]]></dc:creator>
+				<category><![CDATA[news]]></category>
+		<category><![CDATA[update]]></category>
+
+		<guid isPermaLink="false">https://manjaro.org/?p=6243</guid>
+		<description><![CDATA[Hi community, Welcome to another stable update. So what do we have with this one? renewed most of our kernels, incl. the L1TF fixes we updated our Xorg-Server to 1.20.1 mesa got updated to 18.1.6 xf86-video-ati we used the latest git-snapshot to fix some graphical glitches Nvidia 304xx driver is dropped now. Virtualbox got updated [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Hi community,</p>
+<p>Welcome to another <strong>stable</strong> update. So what do we have with this one?</p>
+<ul>
+<li>renewed most of our <strong>kernels</strong>, incl. the <a href="https://www.kernel.org/doc/html/latest/admin-guide/l1tf.html"><strong>L1TF</strong></a> fixes</li>
+<li>we updated our Xorg-Server to <a href="https://lists.freedesktop.org/archives/xorg/2018-August/059380.html">1.20.1</a></li>
+<li><strong>mesa</strong> got updated to <a href="https://lists.freedesktop.org/archives/mesa-dev/2018-August/202382.html">18.1.6</a></li>
+<li>xf86-video-ati we used the latest git-snapshot to fix some graphical glitches</li>
+<li>Nvidia 304xx driver is dropped now.</li>
+<li><strong>Virtualbox</strong> got updated to <a href="https://www.virtualbox.org/wiki/Changelog#18">5.2.18</a></li>
+<li>we backported a fix for <strong>kscreenlocker</strong> reducing the <a href="https://bugs.kde.org/show_bug.cgi?id=347772">100% CPU usage</a></li>
+<li>we reverted commit 6f130e8 in <strong>systemd</strong>, which improves <a href="https://github.com/systemd/systemd/issues/9748">network speed</a></li>
+<li>we pushed our rebuilds for <strong>python 3.7</strong> and <strong>perl 5.28</strong>.</li>
+<li>LibreOffice is now at <a href="https://blog.documentfoundation.org/blog/2018/08/02/libreoffice-6-0-6/">6.0.6</a></li>
+<li>we added the latest <a href="http://mate-desktop.org/blog/2018-02-07-mate-1-20-released/">MATE</a> packages</li>
+<li>added some new Deepin packages</li>
+<li>Stefano updated our Adapta Themes</li>
+<li>we updated some of our <strong>Grub</strong> themes</li>
+<li>we fixed an <a href="https://github.com/gpodder/gpodder/pull/487">issue</a> with gpodder</li>
+<li>updated <a href="https://www.mozilla.org/en-US/firefox/61.0.2/releasenotes/">firefox</a> and <a href="https://blog.mozilla.org/thunderbird/2018/08/whats-new-in-thunderbird-60/">thunderbird</a></li>
+<li>updated <a href="https://lists.freedesktop.org/archives/dbus/2018-August/017509.html">dbus</a></li>
+<li>we updated <strong>firefox-dev</strong> and <strong>firefox-kde</strong> and jdk8 to their latest versions</li>
+<li><strong>flameshot</strong> got a fix for zh_TW locale loading</li>
+<li>small fixes to <strong>pamac-cli</strong></li>
+<li>the usual python/haskell rebuilds/updates</li>
+</ul>
+<p>We hope with all these changes Manjaro to be more efficent for you all.</p>
+<p>Our effort and all the needed information about the new security risk can be found <a href="https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-intel-cpu-bug/37506" rel="noopener" target="_blank">here</a>.</p>
+<p>So please report back and give us feedback for given changes made to our repositories. Users of our 32-bit Distro should read <a href="https://manjaro.org/2017/11/15/introducing-manjaro-32-a-32bit-community-linux-distro/" rel="noopener" target="_blank">this</a>.</p>
+<p>kind regards</p>
+<p>Philip Müller<br />
+<em>Manjaro Project Lead</em></p>
+<hr />
+<p><strong>Current supported Kernels</strong></p>
+<ul>
+<li>linux316 3.16.57</li>
+<li>linux318 3.18.119 [EOL]</li>
+<li>linux41 4.1.52 [EOL]</li>
+<li>linux44 4.4.149</li>
+<li>linux49 4.9.121</li>
+<li>linux414 4.14.64</li>
+<li>linux415 4.15.18 [EOL]</li>
+<li>linux416 4.16.18 [EOL]</li>
+<li>linux417 4.17.16</li>
+<li>linux418 4.18.2</li>
+<li>linux419 4.19-rc0</li>
+<li>linux414-rt 4.14.52_rt34</li>
+<li>linux416-rt 4.16.18_rt11</li>
+</ul>
+<p><strong>Package Updates</strong> (Sat Aug 18 06:46:56 CEST 2018)</p>
+<ul>
+<li>community x86_64:  2965 new and 2912 removed package(s)</li>
+<li>core x86_64:  65 new and 64 removed package(s)</li>
+<li>extra x86_64:  1033 new and 1021 removed package(s)</li>
+<li>multilib x86_64:  22 new and 25 removed package(s)</li>
+</ul>
+<hr />
+<p><strong>Links</strong></p>
+<ul>
+<li><a href="https://forum.manjaro.org/t/55375">Talk about this update-pack in our forum</a></li>
+<li><a href="https://manjaro.org/get-manjaro/">Download Manjaro 17.1.12</a></li>
+<li><a href="https://manjaro.org/donate/">We are always happy for some support via a small donation</a></li>
+</ul>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>[Stable Update] 2018-08-06 &#8211; Kernels, Plasma, Jade, Deepin, Firefox, Haskell</title>
+		<link>https://manjaro.org/2018/08/06/stable-update-2018-08-06-kernels-plasma-jade-deepin-firefox-haskell/</link>
+		<pubDate>Mon, 06 Aug 2018 06:05:15 +0000</pubDate>
+		<dc:creator><![CDATA[Philip Müller]]></dc:creator>
+				<category><![CDATA[update]]></category>
+
+		<guid isPermaLink="false">https://manjaro.org/?p=6233</guid>
+		<description><![CDATA[Hi community, Welcome to another stable update. So what do we have with this one? we updated most of our kernels Bernhard updated our RT-Kernelseries KDE Plasma got updated to 5.13.4 firefox got a new development release networkmanager got its point-release deepin and xfce-gtk3 got new package updates some fixes to pulseaudio our Jade-Desktop packages [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Hi community,</p>
+<p>Welcome to another <strong>stable</strong> update. So what do we have with this one?</p>
+<ul>
+<li>we updated most of our kernels</li>
+<li>Bernhard updated our RT-Kernelseries</li>
+<li>KDE Plasma got updated to <a href="https://www.kde.org/announcements/plasma-5.13.3-5.13.4-changelog.php">5.13.4</a></li>
+<li>firefox got a new development release</li>
+<li>networkmanager got its <a href="https://gitlab.freedesktop.org/NetworkManager/NetworkManager/blob/1.12.2/NEWS">point-release</a></li>
+<li>deepin and xfce-gtk3 got new package updates</li>
+<li>some fixes to pulseaudio</li>
+<li>our Jade-Desktop packages switched to stable versions</li>
+<li>Stefano updated our Adapta Themes</li>
+<li>added Mesa <a href="https://www.mesa3d.org/relnotes/18.1.5.html">18.1.5</a></li>
+<li>we updated pacman to <a href="https://git.archlinux.org/pacman.git/commit/?h=v5.1.1&#038;id=7e081d2adf8321f25165255fd21fab61d4055a53">5.1.1</a></li>
+<li>wine got updated to <a href="https://www.winehq.org/news/2018072001">3.13</a></li>
+<li>pushed out a new linux-firmware to support more AMD-GPUs</li>
+<li>the usual python/haskell rebuilds/updates</li>
+</ul>
+<p>We hope with all these changes Manjaro to be more efficent for you all.</p>
+<p>Our effort and all the needed information about the new security risk can be found <a href="https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-intel-cpu-bug/37506" rel="noopener" target="_blank">here</a>.</p>
+<p>So please report back and give us feedback for given changes made to our repositories. Users of our 32-bit Distro should read <a href="https://manjaro.org/2017/11/15/introducing-manjaro-32-a-32bit-community-linux-distro/" rel="noopener" target="_blank">this</a>.</p>
+<p>kind regards</p>
+<p>Philip Müller<br />
+<em>Manjaro Project Lead</em></p>
+<hr />
+<p><strong>Current supported Kernels</strong></p>
+<ul>
+<li>linux316 3.16.57</li>
+<li>linux318 3.18.117 [EOL]</li>
+<li>linux41 4.1.52 [EOL]</li>
+<li>linux44 4.4.145</li>
+<li>linux49 4.9.117</li>
+<li>linux414 4.14.60</li>
+<li>linux415 4.15.18 [EOL]</li>
+<li>linux416 4.16.18 [EOL]</li>
+<li>linux417 4.17.12</li>
+<li>linux418 4.18-rc7</li>
+<li>linux414-rt 4.14.52_rt34</li>
+<li>linux416-rt 4.16.18_rt11</li>
+</ul>
+<p><strong>Package Updates</strong> (Sat Aug 4 20:19:38 CEST 2018)</p>
+<ul>
+<li>community x86_64:  741 new and 718 removed package(s)</li>
+<li>core x86_64:  22 new and 22 removed package(s)</li>
+<li>extra x86_64:  245 new and 244 removed package(s)</li>
+<li>multilib x86_64:  15 new and 15 removed package(s)</li>
+</ul>
+<hr />
+<p><strong>Links</strong></p>
+<ul>
+<li><a href="https://forum.manjaro.org/t/54299">Talk about this update-pack in our forum</a></li>
+<li><a href="https://manjaro.org/get-manjaro/">Download Manjaro 17.1.11</a></li>
+<li><a href="https://manjaro.org/donate/">We are always happy for some support via a small donation</a></li>
+</ul>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>[Stable Update] 2018-07-24 &#8211; Kernels, Pacman-Mirrors, Vulkan, Nvidia</title>
+		<link>https://manjaro.org/2018/07/24/stable-update-2018-07-24-kernels-pacman-mirrors-vulkan-nvidia/</link>
+		<pubDate>Tue, 24 Jul 2018 06:11:20 +0000</pubDate>
+		<dc:creator><![CDATA[Philip Müller]]></dc:creator>
+				<category><![CDATA[update]]></category>
+
+		<guid isPermaLink="false">https://manjaro.org/?p=6175</guid>
+		<description><![CDATA[Hi community, Welcome to another stable update. So what do we have with this one? we updated most of our kernels pacman-mirrors got some fixes to filter out invalid https servers latest vulkan packages both the nvidia 396 and 390 series got updated to their latest releases. We hope with all these changes Manjaro to [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Hi community,</p>
+<p>Welcome to another <strong>stable</strong> update. So what do we have with this one?</p>
+<ul>
+<li>we updated most of our kernels</li>
+<li>pacman-mirrors got some fixes to <a href="https://forum.manjaro.org/t/52963">filter out invalid https servers</a></li>
+<li>latest vulkan packages</li>
+<li>both the nvidia <a href="https://devtalk.nvidia.com/default/topic/1037689">396</a> and <a href="https://devtalk.nvidia.com/default/topic/1037553">390</a> series got updated to their latest releases.</li>
+</li>
+</ul>
+<p>We hope with all these changes Manjaro to be more efficent for you all.</p>
+<p>Our effort and all the needed information about the new security risk can be found <a href="https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-intel-cpu-bug/37506" rel="noopener" target="_blank">here</a>.</p>
+<p>So please report back and give us feedback for given changes made to our repositories. Users of our 32-bit Distro should read <a href="https://manjaro.org/2017/11/15/introducing-manjaro-32-a-32bit-community-linux-distro/" rel="noopener" target="_blank">this</a>.</p>
+<p>kind regards</p>
+<p>Philip Müller<br />
+<em>Manjaro Project Lead</em></p>
+<hr />
+<p><strong>Current supported Kernels</strong></p>
+<ul>
+<li>linux316 3.16.57</li>
+<li>linux318 3.18.116 [EOL]</li>
+<li>linux41 4.1.52 [EOL]</li>
+<li>linux44 4.4.143</li>
+<li>linux49 4.9.114</li>
+<li>linux414 4.14.57</li>
+<li>linux415 4.15.18 [EOL]</li>
+<li>linux416 4.16.18 [EOL]</li>
+<li>linux417 4.17.9</li>
+<li>linux418 4.18-rc5</li>
+<li>linux414-rt 4.14.52_rt34</li>
+<li>linux416-rt 4.16.18_rt10</li>
+</ul>
+<p><strong>Package Updates</strong> (Mon Jul 23 05:36:36 CEST 2018)</p>
+<ul>
+<li>community x86_64:  70 new and 62 removed package(s)</li>
+<li>core x86_64:  13 new and 13 removed package(s)</li>
+<li>extra x86_64:  96 new and 96 removed package(s)</li>
+<li>multilib x86_64:  11 new and 11 removed package(s)</li>
+</ul>
+<hr />
+<p><strong>Links</strong></p>
+<ul>
+<li><a href="https://forum.manjaro.org/t/53191">Talk about this update-pack in our forum</a></li>
+<li><a href="https://manjaro.org/get-manjaro/">Download Manjaro 17.1.11</a></li>
+<li><a href="https://manjaro.org/donate/">We are always happy for some support via a small donation</a></li>
+</ul>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>[Stable Update] 2018-07-22 &#8211; Kernels, KDE, Gnome, Deepin, Mesa, Browsers, PHP</title>
+		<link>https://manjaro.org/2018/07/22/stable-update-2018-07-22-kernels-kde-gnome-deepin-mesa-browsers-php/</link>
+		<pubDate>Sun, 22 Jul 2018 05:57:46 +0000</pubDate>
+		<dc:creator><![CDATA[Philip Müller]]></dc:creator>
+				<category><![CDATA[update]]></category>
+
+		<guid isPermaLink="false">https://manjaro.org/?p=6171</guid>
+		<description><![CDATA[Hi community, Welcome to another stable update. So what do we have with this one? Pamac got an enhanced cli mode Mesa got updated to v18.1.4 which brings fixes for radeon and intel we added the latest kernels updated some of our themes added some more patches and tweaks to GTK3-Classic Virtualbox got updated to [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Hi community,</p>
+<p>Welcome to another <strong>stable</strong> update. So what do we have with this one?</p>
+<ul>
+<li>Pamac got an enhanced <a href="https://forum.manjaro.org/t/52787">cli mode</a></li>
+<li>Mesa got updated to <a href="https://www.mesa3d.org/relnotes/18.1.4.html">v18.1.4</a> which brings fixes for <strong>radeon</strong> and <strong>intel</strong></li>
+<li>we added the latest kernels</li>
+<li>updated some of our themes</li>
+<li>added some more patches and tweaks to GTK3-Classic</li>
+<li>Virtualbox got updated to <a href="https://www.virtualbox.org/wiki/Changelog#16">v5.2.16</a></li>
+<li>we added the latest point-releases ([<a href="https://lists.freedesktop.org/archives/pulseaudio-discuss/2018-July/030259.html">1</a>][<a href="https://lists.freedesktop.org/archives/pulseaudio-discuss/2018-July/030280.html">2</a>]) of PulseAudio v12 series</li>
+<li>KDE frameworks got updated to <a href="https://www.kde.org/announcements/kde-frameworks-5.48.0.php">v5.48.0</a></li>
+<li>KDE got updated with <a href="https://www.kde.org/announcements/plasma-5.13.3.php">Plasma</a> and <a href="https://www.kde.org/announcements/announce-applications-18.04.3.php">Apps</a></li>
+<li>added some more Cinnamon, Gnome and Deepin packages</li>
+<li>Stefano managed to add our new <strong>plasma5-theme-adaptabreath</strong> theme for KDE</li>
+<li>we worked mostly on our profile-settings and themes</li>
+<li>we updated Palemoon and Firefox browsers</li>
+<li>php got updated</li>
+<li>python and haskell updates/rebuilds.</li>
+</ul>
+<p>We hope with all these changes Manjaro to be more efficent for you all.</p>
+<p>Our effort and all the needed information about the new security risk can be found <a href="https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-intel-cpu-bug/37506" rel="noopener" target="_blank">here</a>.</p>
+<p>So please report back and give us feedback for given changes made to our repositories. Users of our 32-bit Distro should read <a href="https://manjaro.org/2017/11/15/introducing-manjaro-32-a-32bit-community-linux-distro/" rel="noopener" target="_blank">this</a>.</p>
+<p>kind regards</p>
+<p>Philip Müller<br />
+<em>Manjaro Project Lead</em></p>
+<hr />
+<p><strong>Current supported Kernels</strong></p>
+<ul>
+<li>linux316 3.16.57</li>
+<li>linux318 3.18.115 [EOL]</li>
+<li>linux41 4.1.52 [EOL]</li>
+<li>linux44 4.4.141</li>
+<li>linux49 4.9.113</li>
+<li>linux414 4.14.56</li>
+<li>linux415 4.15.18 [EOL]</li>
+<li>linux416 4.16.18 [EOL]</li>
+<li>linux417 4.17.7</li>
+<li>linux418 4.18-rc5</li>
+<li>linux414-rt 4.14.52_rt34</li>
+<li>linux416-rt 4.16.18_rt10</li>
+</ul>
+<p><strong>Package Updates</strong> (Sat Jul 21 07:13:46 CEST 2018)</p>
+<ul>
+<li>community x86_64:  883 new and 875 removed package(s)</li>
+<li>core x86_64:  28 new and 28 removed package(s)</li>
+<li>extra x86_64:  729 new and 774 removed package(s)</li>
+<li>multilib x86_64:  28 new and 26 removed package(s)</li>
+</ul>
+<p>A detailed list of all package changes can be found <a href="https://gist.github.com/philmmanjaro/fa4d12be29d852488471381e2471ec9f/raw/6dea2cc28a09352d6bf68e9344b7eb144872df64/boxit-stable-2018-07-22.txt" rel="noopener" target="_blank">here</a>.</p>
+<p><strong>Links</strong></p>
+<ul>
+<li><a href="https://forum.manjaro.org/t/52934">Talk about this update-pack in our forum</a></li>
+<li><a href="https://manjaro.org/get-manjaro/">Download Manjaro 17.1.11</a></li>
+<li><a href="https://manjaro.org/donate/">We are always happy for some support via a small donation</a></li>
+</ul>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>[Stable Update] 2018-07-13 &#8211; Kernels, Firefox, Octopi, Adapta, Haskell, Python</title>
+		<link>https://manjaro.org/2018/07/13/stable-update-2018-07-13-kernels-firefox-octopi-adapta-haskell-python/</link>
+		<pubDate>Fri, 13 Jul 2018 07:03:28 +0000</pubDate>
+		<dc:creator><![CDATA[Philip Müller]]></dc:creator>
+				<category><![CDATA[news]]></category>
+		<category><![CDATA[update]]></category>
+
+		<guid isPermaLink="false">https://manjaro.org/?p=6162</guid>
+		<description><![CDATA[Hi community, Welcome to another stable update. So what do we have with this one? latest kernels Firefox updated in Standard and Development edition Octopi got another revert in regard of the network check issue Stefano managed to update our Adapta themes once more python and haskell updates/rebuilds. We hope with all these changes Manjaro [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Hi community,</p>
+<p>Welcome to another <strong>stable</strong> update. So what do we have with this one?</p>
+<ul>
+<li>latest kernels</li>
+<li>Firefox updated in Standard and Development edition</li>
+<li>Octopi got another revert in regard of the network check issue</li>
+<li>Stefano managed to update our Adapta themes once more</li>
+<li>python and haskell updates/rebuilds.</li>
+</ul>
+<p>We hope with all these changes Manjaro to be more efficent for you all.</p>
+<p>Our effort and all the needed information about the new security risk can be found <a href="https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-intel-cpu-bug/37506" rel="noopener" target="_blank">here</a>.</p>
+<p>So please report back and give us feedback for given changes made to our repositories. Users of our 32-bit Distro should read <a href="https://manjaro.org/2017/11/15/introducing-manjaro-32-a-32bit-community-linux-distro/" rel="noopener" target="_blank">this</a>.</p>
+<p>kind regards</p>
+<p>Philip Müller<br />
+<em>Manjaro Project Lead</em></p>
+<hr />
+<p><strong>Current supported Kernels</strong></p>
+<ul>
+<li>linux316 3.16.57</li>
+<li>linux318 3.18.114 [EOL]</li>
+<li>linux41 4.1.52 [EOL]</li>
+<li>linux44 4.4.139</li>
+<li>linux49 4.9.111</li>
+<li>linux414 4.14.54</li>
+<li>linux415 4.15.18 [EOL]</li>
+<li>linux416 4.16.18 [EOL]</li>
+<li>linux417 4.17.5</li>
+<li>linux418 4.18-rc3</li>
+<li>linux414-rt 4.14.52_rt34</li>
+<li>linux416-rt 4.16.15_rt7</li>
+</ul>
+<p><strong>Package Updates</strong> (Mon Jul 9 06:59:43 CEST 2018)</p>
+<ul>
+<li>community x86_64:  576 new and 571 removed package(s)</li>
+<li>core x86_64:  12 new and 12 removed package(s)</li>
+<li>extra x86_64:  186 new and 283 removed package(s)</li>
+<li>multilib x86_64:  2 new and 2 removed package(s)</li>
+</ul>
+<p>A detailed list of all package changes can be found <a href="https://gist.github.com/philmmanjaro/03bc6b805635338fa4fbef7af45e92c2/raw/6c8ceffa92fa73af38f0e7b2b3a6a2fa65d14c6b/boxit-stable-2018-07-13.txt" rel="noopener" target="_blank">here</a>.</p>
+<p><strong>Links</strong></p>
+<ul>
+<li><a href="https://forum.manjaro.org/t/52131">Talk about this update-pack in our forum</a></li>
+<li><a href="https://manjaro.org/get-manjaro/">Download Manjaro 17.1.11</a></li>
+<li><a href="https://manjaro.org/donate/">We are always happy for some support via a small donation</a></li>
+</ul>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>[Stable Update] 2018-07-06 &#8211; Kernels, Firefox, VirtualBox, Python, Haskell</title>
+		<link>https://manjaro.org/2018/07/06/stable-update-2018-07-06-kernels-firefox-virtualbox-python-haskell/</link>
+		<pubDate>Fri, 06 Jul 2018 06:56:43 +0000</pubDate>
+		<dc:creator><![CDATA[Philip Müller]]></dc:creator>
+				<category><![CDATA[update]]></category>
+
+		<guid isPermaLink="false">https://manjaro.org/?p=6160</guid>
+		<description><![CDATA[Hi community, Welcome to another stable update. So what do we have with this one? we released new kernel updates firefox got his fifth beta in v62 series Stefano updated our Adapta themes latest VirtualBox added latest cinnamon-session package python and haskell updates/rebuilds. We hope with all these changes Manjaro to be more efficent for [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Hi community,</p>
+<p>Welcome to another <strong>stable</strong> update. So what do we have with this one?</p>
+<ul>
+<li>we released new kernel updates</li>
+<li>firefox got his fifth beta in v62 series</li>
+<li>Stefano updated our Adapta themes</li>
+<li>latest <a href="https://www.virtualbox.org/wiki/Changelog#14">VirtualBox</a> added</li>
+<li>latest cinnamon-session package</li>
+<li>python and haskell updates/rebuilds.</li>
+</ul>
+<p>We hope with all these changes Manjaro to be more efficent for you all.</p>
+<p>Our effort and all the needed information about the new security risk can be found <a href="https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-intel-cpu-bug/37506" rel="noopener" target="_blank">here</a>.</p>
+<p>So please report back and give us feedback for given changes made to our repositories. Users of our 32-bit Distro should read <a href="https://manjaro.org/2017/11/15/introducing-manjaro-32-a-32bit-community-linux-distro/" rel="noopener" target="_blank">this</a>.</p>
+<p>kind regards</p>
+<p>Philip Müller<br />
+<em>Manjaro Project Lead</em></p>
+<hr />
+<p><strong>Current supported Kernels</strong></p>
+<ul>
+<li>linux316 3.16.57</li>
+<li>linux318 3.18.114 [EOL]</li>
+<li>linux41 4.1.52 [EOL]</li>
+<li>linux44 4.4.139</li>
+<li>linux49 4.9.111</li>
+<li>linux414 4.14.53</li>
+<li>linux415 4.15.18 [EOL]</li>
+<li>linux416 4.16.18 [EOL]</li>
+<li>linux417 4.17.4</li>
+<li>linux418 4.18-rc2</li>
+<li>linux414-rt 4.14.52_rt34</li>
+<li>linux416-rt 4.16.15_rt7</li>
+</ul>
+<p><strong>Package Updates</strong> (Thu Jul 5 06:54:50 CEST 2018)</p>
+<ul>
+<li>community x86_64:  603 new and 599 removed package(s)</li>
+<li>core x86_64:  14 new and 14 removed package(s)</li>
+<li>extra x86_64:  124 new and 130 removed package(s)</li>
+<li>multilib x86_64:  18 new and 22 removed package(s)</li>
+</ul>
+<p>A detailed list of all package changes can be found <a href="https://gist.github.com/philmmanjaro/89148c25de79ae3922ef3c11b6fb1d00/raw/4d8176092634ad259959819ebe8740ba72c2b0ce/boxit-stable-2018-07-06.txt" rel="noopener" target="_blank">here</a>.</p>
+<p><strong>Links</strong></p>
+<ul>
+<li><a href="https://forum.manjaro.org/t/51574">Talk about this update-pack in our forum</a></li>
+<li><a href="https://manjaro.org/get-manjaro/">Download Manjaro 17.1.11</a></li>
+<li><a href="https://manjaro.org/donate/">We are always happy for some support via a small donation</a></li>
+</ul>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Manjaro 17.1.11</title>
+		<link>https://manjaro.org/2018/07/02/manjaro-17-1-11/</link>
+		<pubDate>Mon, 02 Jul 2018 05:15:51 +0000</pubDate>
+		<dc:creator><![CDATA[Manjaro Team]]></dc:creator>
+				<category><![CDATA[installer]]></category>
+
+		<guid isPermaLink="false">https://manjaro.org/?p=6121</guid>
+		<description><![CDATA[We are happy to announce fresh install media 17.1.11 for all our Official Releases, now available from our online storage partner OSDN: XFCE KDE GNOME While our XFCE and GNOME editions are mostly just rebuilds with the latest updated packages, including Libreoffice 6.0.5, Pamac 6.4.0 and Calamares 3.2.0, real news are to be reported for [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>We are happy to announce fresh install media <strong>17.1.11 </strong>for all our <strong>Official Releases</strong>, now available from our online storage partner OSDN:</p>
+<table>
+<tbody>
+<tr>
+<td><strong>XFCE</strong><br />
+<a href="https://osdn.net/projects/manjaro/storage/xfce/17.1.11/" target="_blank" rel="noopener"><img src="https://manjaro.org/wp-content/uploads/2018/04/dl-button.png" /></a></td>
+<td><strong>KDE</strong><br />
+<a href="https://osdn.net/projects/manjaro/storage/kde/17.1.11/" target="_blank" rel="noopener"><img src="https://manjaro.org/wp-content/uploads/2018/04/dl-button.png" /></a></td>
+<td><strong>GNOME</strong><br />
+<a href="https://osdn.net/projects/manjaro/storage/gnome/17.1.11/" target="_blank" rel="noopener"><img src="https://manjaro.org/wp-content/uploads/2018/04/dl-button.png" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>While our <strong>XFCE</strong> and <strong>GNOME</strong> editions are mostly just rebuilds with the latest updated packages, including <a href="https://blog.documentfoundation.org/blog/2018/04/05/libreoffice-6-0-3-now-available-for-download/" rel="noopener" target="_blank"><strong>Libreoffice 6.0.5</strong></a>, <strong>Pamac 6.4.0</strong> and <strong>Calamares 3.2.0</strong>, real news are to be reported for <strong>Manjaro-KDE</strong>, which is now running brand new <strong>KDE 5.13.2</strong>, including <strong>Plasma Browser Integration</strong>, <strong>System Settings redesigns</strong>, <strong>new look</strong> for Lock and Login Screens and a <strong>tech preview</strong> of GTK global menu integration.</p>
+<p><img src="https://manjaro.org/wp-content/uploads/2017/03/kde-170.png" alt="" /></p>
+<hr>
+<p><strong>Links</strong></p>
+<ul>
+<li><a href="https://manjaro.org/get-manjaro/">Download Manjaro 17.1.11</a></li>
+<li><a href="https://manjaro.org/donate/">We are always happy for some support via a small donation</a></li>
+</ul>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>[Stable Update] 2018-07-01 &#8211; Kernels, KDE, LibreOffice, Browsers, Mesa, Systemd, Deepin</title>
+		<link>https://manjaro.org/2018/07/01/stable-update-2018-07-01-kernels-kde-libreoffice-browsers-mesa-systemd-deepin/</link>
+		<pubDate>Sun, 01 Jul 2018 16:52:57 +0000</pubDate>
+		<dc:creator><![CDATA[Philip Müller]]></dc:creator>
+				<category><![CDATA[news]]></category>
+		<category><![CDATA[update]]></category>
+
+		<guid isPermaLink="false">https://manjaro.org/?p=6119</guid>
+		<description><![CDATA[Hi community, Welcome to another stable update. So what do we have with this one? Updated KDE Plasma to v5.13.2 KDE Frameworks are now at v5.47 QT got updated to v5.11.1 Our browsers got updated to their latest versions (Firefox v61.0, v62b4; Chromium; Palemoon) A new set of Deepin and Cinnamon package updates For XFCE [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Hi community,</p>
+<p>Welcome to another <strong>stable</strong> update. So what do we have with this one?</p>
+<ul>
+<li>Updated KDE Plasma to <a href="https://www.kde.org/announcements/plasma-5.13.1-5.13.2-changelog.php">v5.13.2</a></li>
+<li><a href="https://www.kde.org/announcements/kde-frameworks-5.47.0.php">KDE Frameworks</a> are now at v5.47</li>
+<li>QT got updated to <a href="https://blog.qt.io/blog/2018/06/19/qt-5-11-1-released/">v5.11.1</a></li>
+<li>Our browsers got updated to their latest versions (Firefox <a href="https://www.mozilla.org/en-US/firefox/61.0/releasenotes/">v61.0</a>, <a href="https://www.mozilla.org/en-US/firefox/62.0beta/releasenotes/">v62b4</a>; Chromium; Palemoon)</li>
+<li>A new set of <strong>Deepin</strong> and <strong>Cinnamon</strong> package updates</li>
+<li>For XFCE 4.14 we got <a href="https://mail.xfce.org/pipermail/xfce-announce/2018-June/000616.html">xfdesktop</a> and <a href="https://mail.xfce.org/pipermail/xfce-announce/2018-June/000618.html">xfsettings</a> updated.</li>
+<li>Latest Nvidia legacy drivers</li>
+<li>We added the latest <a href="https://lists.freedesktop.org/archives/mesa-dev/2018-June/198970.html">Mesa 18.1.3</a>, including <a href="https://bugs.archlinux.org/task/58697">fixing crashes</a> with illegal instruction vmovq on CPUs without AVX support</li>
+<li>Systemd introduces <a href="https://lists.freedesktop.org/archives/systemd-devel/2018-June/040879.html">v239 series</a>. You may want to install <strong>systemd-resolvconf</strong></li>
+<li>Latest kernels got added. Some are now marked as EOL.</li>
+<li>Latest LibreOffice <a href="https://blog.documentfoundation.org/blog/2018/06/22/libreoffice-6-0-5/">v6.0.5</a></li>
+<li>We released <a href="https://gitlab.manjaro.org/tools/development-tools/manjaro-tools/tags/0.15.8">manjaro-tools v0.15.8</a></li>
+<li>Frede pushed out another bugfix release of <a href="https://forum.manjaro.org/t/50926">pacman-mirrors</a></li>
+<li>Ramon found time to update our Breath theme for v5.13 series</li>
+<li>Bernhard updated the realtime kernel for v4.16 series</li>
+<li>Philip added the latest RC kernel of v4.18 series.</li>
+<li>Stefano found time to update our Adapta theme series once again</li>
+<li><strong>Haskell</strong> and <strong>Python</strong> updates/rebuilds.</li>
+</ul>
+<p>We hope with all these changes Manjaro to be more efficent for you all.</p>
+<p>Our effort and all the needed information about the new security risk can be found <a href="https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-intel-cpu-bug/37506" rel="noopener" target="_blank">here</a>.</p>
+<p>So please report back and give us feedback for given changes made to our repositories. Users of our 32-bit Distro should read <a href="https://manjaro.org/2017/11/15/introducing-manjaro-32-a-32bit-community-linux-distro/" rel="noopener" target="_blank">this</a>.</p>
+<p>kind regards</p>
+<p>Philip Müller<br />
+<em>Manjaro Project Lead</em></p>
+<hr />
+<p><strong>Current supported Kernels</strong></p>
+<ul>
+<li>linux316 3.16.57</li>
+<li>linux318 3.18.113 [EOL]</li>
+<li>linux41 4.1.52 [EOL]</li>
+<li>linux44 4.4.138</li>
+<li>linux49 4.9.110</li>
+<li>linux414 4.14.52</li>
+<li>linux415 4.15.18 [EOL]</li>
+<li>linux416 4.16.18 [EOL]</li>
+<li>linux417 4.17.3</li>
+<li>linux418 4.18-rc2</li>
+<li>linux414-rt 4.14.40_rt30</li>
+<li>linux416-rt 4.16.15_rt7</li>
+</ul>
+<p><strong>Package Updates</strong> (Sat Jun 30 09:40:26 CEST 2018)</p>
+<ul>
+<li>community x86_64:  1116 new and 1095 removed package(s)</li>
+<li>core x86_64:  58 new and 56 removed package(s)</li>
+<li>extra x86_64:  776 new and 860 removed package(s)</li>
+<li>multilib x86_64:  32 new and 26 removed package(s)</li>
+</ul>
+<p>A detailed list of all package changes can be found <a href="https://gist.github.com/philmmanjaro/36d94b85d75e8cc3b18104efb4d17873/raw/d59640639c5e813a63bc74e2be3a6506ec4b30c7/boxit-stable-2018-07-01.txt" rel="noopener" target="_blank">here</a>.</p>
+<p><strong>Links</strong></p>
+<ul>
+<li><a href="https://forum.manjaro.org/t/51084">Talk about this update-pack in our forum</a></li>
+<li><a href="https://manjaro.org/get-manjaro/">Download Manjaro 17.1.11</a></li>
+<li><a href="https://manjaro.org/donate/">We are always happy for some support via a small donation</a></li>
+</ul>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>[Stable Update] 2018-06-10 &#8211; Kernels, KDE Apps, LibreOffice, Firefox, GCC, Gambas, Deepin</title>
+		<link>https://manjaro.org/2018/06/10/stable-update-2018-06-10-kernels-kde-apps-libreoffice-firefox-gcc-gambas-deepin/</link>
+		<pubDate>Sun, 10 Jun 2018 06:04:07 +0000</pubDate>
+		<dc:creator><![CDATA[Philip Müller]]></dc:creator>
+				<category><![CDATA[news]]></category>
+		<category><![CDATA[update]]></category>
+
+		<guid isPermaLink="false">https://manjaro.org/?p=6105</guid>
+		<description><![CDATA[Hi community, Welcome to another stable update. So what do we have with this one? All our kernels got updated or rebuild against gcc 8.1.1+20180531-1 Fixed booting issue with linux49 Pamac got fixed in regard of AUR-builds LibreOffice got updated Latest Deepin packages added We updated KDE Apps Firefox offers some fixes and changes Usual [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Hi community,</p>
+<p>Welcome to another <strong>stable</strong> update. So what do we have with this one?</p>
+<ul>
+<li>All our kernels got updated or rebuild against <strong>gcc 8.1.1+20180531-1</strong>
+<li><a href="https://www.spinics.net/lists/stable/msg243906.html">Fixed booting issue</a> with <strong>linux49</strong>
+<li><strong>Pamac</strong> got fixed in regard of AUR-builds
+<li><a href="https://www.libreoffice.org/download/release-notes/#Still">LibreOffice</a> got updated
+<li>Latest <strong>Deepin</strong> packages added
+<li>We updated <a href="https://www.kde.org/announcements/announce-applications-18.04.2.php">KDE Apps</a>
+<li><a href="https://www.mozilla.org/en-US/firefox/60.0.2/releasenotes/">Firefox</a> offers some fixes and changes
+<li>Usual upstream rebuilds
+</li>
+</ul>
+<p>We hope with all these changes Manjaro to be more efficent for you all.</p>
+<p>Our effort and all the needed information about the new security risk can be found <a href="https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-intel-cpu-bug/37506" rel="noopener" target="_blank">here</a>.</p>
+<p>So please report back and give us feedback for given changes made to our repositories. Users of our 32-bit Distro should read <a href="https://manjaro.org/2017/11/15/introducing-manjaro-32-a-32bit-community-linux-distro/" rel="noopener" target="_blank">this</a>.</p>
+<p>kind regards</p>
+<p>Philip Müller<br />
+<em>Manjaro Project Lead</em></p>
+<hr />
+<p><strong>Current supported Kernels</strong></p>
+<ul>
+<li>linux316 3.16.56</li>
+<li>linux318 3.18.112 [EOL]</li>
+<li>linux41 4.1.52</li>
+<li>linux44 4.4.136</li>
+<li>linux49 4.9.107</li>
+<li>linux414 4.14.48</li>
+<li>linux415 4.15.18 [EOL]</li>
+<li>linux416 4.16.14</li>
+<li>linux417 4.17.0</li>
+<li>linux414-rt 4.14.40_rt30</li>
+<li>linux416-rt 4.16.12_rt5</li>
+</ul>
+<p><strong>Package Updates</strong> (Sat Jun 9 10:31:49 CEST 2018)</p>
+<ul>
+<li>community x86_64:  979 new and 965 removed package(s)</li>
+<li>core x86_64:  44 new and 44 removed package(s)</li>
+<li>extra x86_64:  811 new and 805 removed package(s)</li>
+<li>multilib x86_64:  19 new and 19 removed package(s)</li>
+</ul>
+<p>A detailed list of all package changes can be found <a href="https://gist.github.com/philmmanjaro/e48ba75f3e0d4048586ed7581638d477/raw/a091736b9ef0625d037d18e5b5ed9f63753ec2bc/boxit-stable-2018-06-10.txt" rel="noopener" target="_blank">here</a>.</p>
+<p><strong>Links</strong></p>
+<ul>
+<li><a href="https://forum.manjaro.org/t/49410">Talk about this update-pack in our forum</a></li>
+<li><a href="https://manjaro.org/get-manjaro/">Download Manjaro 17.1.10</a></li>
+<li><a href="https://manjaro.org/donate/">We are always happy for some support via a small donation</a></li>
+</ul>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

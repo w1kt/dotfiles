@@ -1,0 +1,22 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update
+
+[General]
+SideBarPage=operations
+
+[MainWindow]
+Height 900=798
+State=AAAA/wAAAAD9AAAAAAAAAYYAAALaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1600=390
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Guest-Landing-Page.jpg
+File2[$e]=$HOME/Downloads/1376023707259.png
+File3[$e]=$HOME/Downloads/Chill-Nature-Creative-Desktop-Wallpaper-Background-by-Canva.jpg
+Name1[$e]=Guest-Landing-Page.jpg
+Name2[$e]=1376023707259.png
+Name3[$e]=Chill-Nature-Creative-Desktop-Wallpaper-Background-by-Canva.jpg
+
+[SideBar]
+SideBarSplitterSizes=193,193
